@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        <title>Taste of Bread Download</title>
+        <link rel="icon" type="image/x-icon" href="https://github.com/Menherott/image/blob/main/ToB%20Icon.png?raw=true">
+        <link rel="stylesheet" href="style.css">
+        <meta name="author" content="Menhero">
+        <meta name="description" content="Play Taste of Bread for free!">
+        <meta name="keywords" content="Taste of Bread, ToB, What Taste Bread, WTB, Menhero, Menhero Dev, Game, Platformer, Platformer Game, Pixel Game, 2D Game">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="charset" content="UTF-8">
+        <meta property="og:image" content="https://github.com/Menherott/image/blob/main/ToB%20Icon.png?raw=true">
+        <meta property="og:description" content="Play Taste of Bread for free!">
+    </head>
+
+    <body>
+        <div style="text-align: center;">
+            <img draggable="false" src="Images/ToB Title.png" width="100%" style="max-width: 600px;">
+        </div>
+        
+        <div class="nav" id="nav">
+            <a class="active">Download</a>
+            <a href="index.html">Home</a>
+            <a href="patch_notes.html">Patch Notes</a>
+            <a href="community.html">Community</a>
+            <a href="ost.html">OST</a>
+
+            <a class="icon" onclick="navExpand()">
+                <img draggable="false" src="Images/Nav Icon.png" height="10px">
+            </a>
+        </div>
+
+        <script>
+            function navExpand(){
+                var x = document.getElementById("nav");
+                
+                if (x.className == "nav"){
+                    x.className += " responsive";
+                } else{
+                    x.className = "nav";
+                }
+            }
+        </script>
+
+        <div class="topic-div">
+            <h1 class="topic-header">Coming Soon!</h1>
+
+            <!-- <div class="topic-subdiv">
+                <a class="topic-header2-link" href="" download>Android</a>
+            </div>
+
+            <div class="topic-subdiv">
+                <a class="topic-header2-link" href="" download>iOS</a>
+            </div>
+
+            <div class="topic-subdiv">
+                <a class="topic-header2-link" href="" download>Windows</a>
+            </div> -->
+        </div>
+    </body>
+</html>

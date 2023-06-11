@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        <title>Taste of Bread Community</title>
+        <link rel="icon" type="image/x-icon" href="https://github.com/Menherott/image/blob/main/ToB%20Icon.png?raw=true">
+        <link rel="stylesheet" href="style.css">
+        <meta name="author" content="Menhero">
+        <meta name="description" content="Join our community!">
+        <meta name="keywords" content="Taste of Bread, ToB, What Taste Bread, WTB, Menhero, Menhero Dev, Game, Platformer, Platformer Game, Pixel Game, 2D Game, Community, Game Community">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="charset" content="UTF-8">
+        <meta property="og:image" content="https://github.com/Menherott/image/blob/main/ToB%20Icon.png?raw=true">
+        <meta property="og:description" content="Join our community!">
+    </head>
+
+    <body>
+        <div style="text-align: center;">
+            <img draggable="false" src="Images/ToB Title.png" width="100%" style="max-width: 600px;">
+        </div>
+        
+        <div class="nav" id="nav">
+            <a class="active">Community</a>
+            <a href="index.html">Home</a>
+            <a href="download.html">Download</a>
+            <a href="patch_notes.html">Patch Notes</a>
+            <a href="ost.html">OST</a>
+
+            <a class="icon" onclick="navExpand()">
+                <img draggable="false" src="Images/Nav Icon.png" height="10px">
+            </a>
+        </div>
+
+        <script>
+            function navExpand(){
+                var x = document.getElementById("nav");
+                
+                if (x.className == "nav"){
+                    x.className += " responsive";
+                } else{
+                    x.className = "nav";
+                }
+            }
+        </script>
+            
+        <div class="topic-div">
+            <h1 class="topic-header">Join our community!</h1>
+
+            <div class="topic-subdiv">
+                <a class="topic-header2-link" href="https://discord.gg/pCNeF8zz93" target="_blank">Discord Server</a>
+
+                <div class="topic-image-container">
+                    <img class="topic-image" src="Images/ToB Discord Server.png">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

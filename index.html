@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        <title>Taste of Bread</title>
+        <link rel="icon" type="image/x-icon" href="https://github.com/Menherott/image/blob/main/ToB%20Icon.png?raw=true">
+        <link rel="stylesheet" href="style.css">
+        <meta name="author" content="Menhero">
+        <meta name="description" content="Taste of Bread is a 2D platformer game with challenging levels and an interesting story about bread.">
+        <meta name="keywords" content="Taste of Bread, ToB, What Taste Bread, WTB, Menhero, Menhero Dev, Game, Platformer, Platformer Game, Pixel Game, 2D Game">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="charset" content="UTF-8">
+        <meta property="og:image" content="https://github.com/Menherott/image/blob/main/ToB%20Icon.png?raw=true">
+        <meta property="og:description" content="Taste of Bread is a 2D platformer game with challenging levels and an interesting story about bread.">
+    </head>
+
+    <body>
+        <div style="text-align: center;">
+            <img draggable="false" src="Images/ToB Title.png" width="100%" style="max-width: 600px;">
+        </div>
+        
+        <div class="nav" id="nav">
+            <a class="active">Home</a>
+            <a href="download.html">Download</a>
+            <a href="patch_notes.html">Patch Notes</a>
+            <a href="community.html">Community</a>
+            <a href="ost.html">OST</a>
+
+            <a class="icon" onclick="navExpand()">
+                <img draggable="false" src="Images/Nav Icon.png" height="10px">
+            </a>
+        </div>
+
+        <script>
+            function navExpand(){
+                var x = document.getElementById("nav");
+                
+                if (x.className == "nav"){
+                    x.className += " responsive";
+                } else{
+                    x.className = "nav";
+                }
+            }
+        </script>
+            
+        <div class="topic-div">
+            <h1 class="topic-header">What is Taste of Bread?</h1>
+
+            <div class="topic-subdiv">
+                <p class="topic-paragraph">
+                    Taste of Bread is a 2D platformer game with challenging levels and an interesting story about bread.
+                </p>
+                
+                <div class="topic-image-container">
+                    <img class="topic-image" style="max-width: 300px;" src="https://github.com/Menherott/image/blob/main/ToB%20Icon.png?raw=true">
+                </div>
+            </div>
+        </div>
+
+        <div class="topic-div">
+            <h1 class="topic-header">Why play Taste of Bread?</h1>
+
+            <div class="topic-subdiv">
+                <h2 class="topic-header2">Cute Art and Animation!</h2>
+    
+                <div class="topic-image-container">
+                    <img class="topic-image" src="Images/Cute Art and Animation.gif">
+                </div>
+            </div>
+
+            <div class="topic-subdiv">
+                <h2 class="topic-header2">Awesome Original Soundtrack!</h2>
+    
+                <div class="topic-image-container">
+                    <img class="topic-image" src="Images/Awesome Original Soundtrack.png">
+                </div>
+            </div>
+            
+            <div class="topic-subdiv">
+                <h2 class="topic-header2">Challenging Levels!</h2>
+    
+                <div class="topic-image-container">
+                    <img class="topic-image" src="Images/Challenging Levels.gif">
+                </div>
+            </div>
+
+            <div class="topic-subdiv">
+                <h2 class="topic-header2">Interesting Story!</h2>
+    
+                <div class="topic-image-container">
+                    <img class="topic-image" src="Images/Interesting Story.png">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
