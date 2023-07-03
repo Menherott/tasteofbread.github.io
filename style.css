@@ -171,3 +171,13 @@ div{
     display: block;
     text-align: left;
 }
+
+.topic-list{
+    font-family: "Uni Sans Heavy";
+    text-shadow: 2px 2px rgba(50, 50, 80, .8);
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-size: 20px;
+}
